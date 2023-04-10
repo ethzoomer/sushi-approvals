@@ -11,5 +11,6 @@ for src in glob.glob('../*.json'):
 rows.sort(key = lambda x: x[0])
 
 # print output
+print('address,chain')
 for row in rows:
     print(','.join(row))
